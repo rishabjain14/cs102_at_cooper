@@ -1,1 +1,35 @@
+vim Makefile.marvel
 
+CC=gcc
+OBJ = marvel.o
+EXE = marvel.exe
+
+%.o: %.c 
+	$(CC) -c -o $@ $<
+
+$(EXE): $(OBJ)
+	$(CC) -o $@ $^
+
+.PHONY: clean
+
+clean:
+	/bin/rm -f $(OBJ) $(EXE)
+
+vim marvel.c
+#include <stdio.h>
+
+int main() {
+	int limit;
+	int cnt;
+
+	limit = 5;
+	cnt = 1;
+
+	while (cnt < limit) {
+		printf("You shouldv'e gone for the head\t%2d",cnt);
+		cnt = cnt + 1;
+	}
+}
+
+make -f ./Makefile.marvel
+./marvel.exe
