@@ -1,1 +1,21 @@
+(Terminal) 
+vim shell_script1.sh
 
+(Shell Script)
+#!/bin/sh
+
+mkdir /home/rishabjain/hw1_unix
+cp -r /home/rishabjain/hw1_unix/hw1_unix_copy
+touch /home/rishabjain/hw1_unix_copy/file1.txt
+cp -r /home/rishabjain/hw1_unix_copy/file1.txt /home/rishabjain/hw1_unix/file1_copy.txt
+cp -r /home/rishabjain/hw1_unix_copy/file1.txt /home/rishabjain/hw1_unix/file1_copy2.txt
+ls -d */
+ls -a hw1_unix
+:wq
+
+Terminal
+ls 
+#lists out directories created
+cd hw1_unix
+ls
+#lists out files in hw1_unix
