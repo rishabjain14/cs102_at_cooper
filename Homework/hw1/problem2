@@ -18,7 +18,8 @@ clean:
 vim marvel.c
 #include <stdio.h>
 
-int main() {
+int main() 
+        {
 	int max;
 	int output;
 
