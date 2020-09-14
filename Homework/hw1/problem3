@@ -17,7 +17,6 @@ alphabet.exe: $(OBJ)
     printf("b:\b"); 
   /*printf("c:\c");*/
   /*printf("d:\d");*/
-  /*printf("d:\d");*/
     printf("e:\e"); 
     printf("f:\f"); 
   /*printf("g:\g");*/
