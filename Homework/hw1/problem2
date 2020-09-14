@@ -26,8 +26,9 @@ int main()
 	max = 3;
 	output = 0;
 
-	while (output < max) {
-		printf("You should have gone for the head\t%2d",cnt);
+	while (output < max)
+	{
+		printf("You should have gone for the head\t%2d",output);
 		output = output + 1;
 	}
 }
