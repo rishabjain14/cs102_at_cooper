@@ -10,7 +10,7 @@ int main() {
 
 	while(cnt<limit)
 	{
-		printf("You shouldv have gone for the head\t%2d",cnt);
+		printf("You shouldve have gone for the head\t%2d",cnt);
 		cnt = cnt + 1;
 
 	}
