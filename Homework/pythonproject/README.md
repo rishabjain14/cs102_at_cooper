@@ -11,3 +11,6 @@ c.create_rectangle creates a rectangle for each y coordinate to draw the graph.
 print (defined function) outputs the equation. 
 same thing with def v(x) a(x) j(x).
 tk.mainloop() is used when the application is ready to run.
+install python3-tk to get the tkinter options. 
+tkinter file is already made, no need to build. 
+run the program using python3 pythonproject.py
