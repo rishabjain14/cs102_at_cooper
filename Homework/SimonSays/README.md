@@ -15,5 +15,7 @@ The user wins if they answer all 37 questions correctly
 ### How to install and run 
 
 Install the files uploaded.
+
 gcc main.c to compile the files.
+
 run the program using ./a.out.
