@@ -8,7 +8,8 @@ The game becomes more are more difficult as it progresses, opening with the simp
 The organiztion of the code is as follows: main.c simply runs the begingame function. 
 The makefile compiles main.c simonsays.h is an include file and declares all of our functions. simonsays.c contains all of our code.
 It contains the begingame function and fucntions for questions 1-37.
-begingame simply starts the game by asking the user if they want to play each question functon asks the user to perform a task and scans the user input before deciding if the user should move to the next question or not. 
+begingame simply starts the game by asking the user if they want to play each question 
+functon asks the user to perform a task and scans the user input before deciding if the user should move to the next question or not. 
 The user wins if they answer all 37 questions correctly
 ```
 ### How to install and run 
