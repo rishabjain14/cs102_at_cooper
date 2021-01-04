@@ -5,7 +5,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-int begingame(void);
+void begingame(void);
 int question1(void);
 int question2(void);
 int question3(void);

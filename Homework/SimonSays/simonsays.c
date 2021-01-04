@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "simonsays.h"
 
-int begingame(void)
+void begingame(void)
 {
     char response;
     printf("Welcome to Simon Says! Would you like to begin? (y/n) \n");
